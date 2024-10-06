@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navigation {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.navigation a:hover {
+    background-color: #555; /* Hover background color */
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2em; /* Larger font size for headings */
+    color: #333; /* Heading color */
+}
+
+p {
+    margin: 20px;
+    color: #666; /* Paragraph color */
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Gap between grid items */
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #fff; /* Background color for gallery items */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s; /* Smooth scale effect on hover */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.gallery-item img {
+    width: 100%; /* Full width of the container */
+    border-radius: 8px; /* Match the container's rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
